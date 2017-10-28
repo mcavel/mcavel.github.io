@@ -103,3 +103,17 @@
   text-align: center;
 }
 
+.font-a{
+  color: white;
+  font-size: 200%;
+  font-family: Arial;
+  margin-left: 50px;
+  background: teal;
+
+}
+
+
+.navbar-nav > li > a:hover,
+.navbar-nav  > li > a:focus {
+  background: lightgrey !important;
+}

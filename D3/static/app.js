@@ -97,7 +97,7 @@ d3.csv("census_data.csv", function(err, censusdata) {
       .attr("x", 0 - (height / 2))
       .attr("dy", "1em")
       .attr("class", "axisText")
-      .text("% Passed Over (Needed) Medical Care");
+      .text("Health Care Engagement");
 
 // Append x-axis labels
   chart.append("text")
@@ -105,17 +105,7 @@ d3.csv("census_data.csv", function(err, censusdata) {
     .attr("class", "axisText")
     .text("Uninsured %");
 
-  // chart.append("text").text(function(data){
-  //     return chart.abbrv;
-  //   })
-  //   .attr("x", xLinearScale)
-  //   .attr("y", yLinearScale)
-  //   .attr({
-  //     "text-anchor": "middle",
-  //     "font-size": 9,
-  //     "font-weight":"bold",
-  //     "fill":"white"
-  //   });
+
     
     });
 
